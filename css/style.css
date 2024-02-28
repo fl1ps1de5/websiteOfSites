@@ -1,0 +1,43 @@
+/* Top style */
+.topCommon{
+    text-align: center;
+    display:inline;
+    font-family: "Fantasy", Impact, serif;
+   }
+
+/* Top font size */
+.topB { font-size: 200px; }
+.topS { font-size: 20px; }
+.topM { font-size: 80px; }
+.topG { font-size: 300px; }
+
+.website-item {
+    margin: 20px;
+    padding: 10px;
+    font-family: "sans-serif", Arial, serif;
+}
+
+.website-name {
+    font-size: 24px;
+    color: #333;
+}
+
+.website-brief {
+    font-size: 16px;
+    color: #666;
+}
+
+/* .website-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+} */
+   
+#NavBar{
+    text-align: center;
+    font-family: "serif", Palatino, URW Palladio L, serif;
+}
