@@ -12,5 +12,11 @@ const websites = [
         url: "https://looptap.vasanthv.com", 
         category: "games", 
         brief: "An easy, fun, timing-based arcade style game. Fun for 10 minutes. My best is 232."
-    }
+    },
+    { 
+        name: "Neal.fun", 
+        url: "https://neal.fun/", 
+        category: "games", 
+        brief: "Pretty nice collection of fun little games / time wasters. Some of them are rather interesting. All pretty well made."
+    },
   ];
