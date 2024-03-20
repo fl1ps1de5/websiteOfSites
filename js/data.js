@@ -19,4 +19,13 @@ const websites = [
         category: "games", 
         brief: "Pretty nice collection of fun little games / time wasters. Some of them are rather interesting. All pretty well made."
     },
+    { 
+        name: "Simon Tatham's Portable Puzzle Collection", 
+        url: "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/", 
+        category: "games", 
+        brief: `A bunch of fun, interesting puzzles, which run in the browser. 
+        Some pretty out of the box games too. All hosted on an old school, low-effort website, which adds 
+        to the charm.   I say "low-effort", but the actual coding for some of the games seems like it would be
+        pretty nutty (look at the shape options in Cube)`
+    }
   ];
