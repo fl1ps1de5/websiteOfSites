@@ -2,7 +2,10 @@ function displayWebsites(category) {
     const container = document.getElementById('sites'); // Ensure you have a container with this ID in your HTML
     container.innerHTML = ''; // Clear existing content
   
-    const filteredWebsites = websites.filter(website => category === 'all' ? true : website.category === category);
+    const filteredWebsites = websites.filter(website =>
+        category === 'all' ? true : Array.isArray(website.category) ? website.category.includes(category) : website.category === category
+    );
+    
   
     filteredWebsites.forEach(website => {
         const item = document.createElement('div');

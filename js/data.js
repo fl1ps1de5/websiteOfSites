@@ -1,17 +1,16 @@
 const websites = [ 
     { 
-        name: "Adobe Package Manager", 
-        url: "https://github.com/Drovosek01/adobe-packager", 
+        name: "Excalidraw", 
+        url: "https://excalidraw.com/", 
         category: "utilities", 
-        brief: `A github repo which contains a script that can basically download any version of any Adobe app (for free!).
-        Really cool command-line app, and really useful. It does require AdobeZii \n to patch the file though, and also
-        you need to delete adobe creative cloud off your device and download a version 5.7.0.1307. Adobe Zii can be found online.`
+        brief: `Super easy to use, lightweight NO SIGN IN, drawing thingo - also good for flow charts + 
+        it can be used for collaborative stuff like group projects.`
     },
     { 
-        name: "Looptap", 
-        url: "https://looptap.vasanthv.com", 
+        name: "Angle", 
+        url: "https://angle.wtf/", 
         category: "games", 
-        brief: "An easy, fun, timing-based arcade style game. Fun for 10 minutes. My best is 232."
+        brief: "Wordle like game where you guess the angle."
     },
     { 
         name: "Neal.fun", 
@@ -27,5 +26,19 @@ const websites = [
         Some pretty out of the box games too. All hosted on an old school, low-effort website, which adds 
         to the charm.   I say "low-effort", but the actual coding for some of the games seems like it would be
         pretty nutty (look at the shape options in Cube)`
+    },
+    { 
+        name: "Evil AI Quiz", 
+        url: "https://quiz.cord.com/", 
+        category: ["games", "interesting"], 
+        brief: `This is a really cool little website. Its basically a quiz where you and an AI LLM have to work together to 
+        submit the answer to various questions. Some are hard for humans and easy for the AI, and some are the other way around
+        Does a good job at showing the weaknesses of AI, and its pretty fun.`
     }
+    // { 
+    //     name: "", 
+    //     url: "", 
+    //     category: "", 
+    //     brief: ""
+    // }
   ];
