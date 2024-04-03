@@ -51,7 +51,7 @@ const websites = [
         brief: "Daily NYT mini-crossword. Should take like 40s to do if its a good attempt"
     },
     { 
-        name: "Gamdle", 
+        name: "Gamedle", 
         url: "https://www.gamedle.wtf/?lang=en", 
         category: ["games", "daily"], 
         brief: "A few daily video-game based 'dle' games - pretty fun and right up my alley. 'Guess' is easily the most fun mode."
