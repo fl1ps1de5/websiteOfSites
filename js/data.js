@@ -67,10 +67,28 @@ const websites = [
         url: "https://www.rottentomatoes.com/movie-trivia/", 
         category: ["games", "daily"], 
         brief: "Daily rotten-tomatoes provided movie guessing game. Not tooooooo hard."
+    },
+    { 
+        name: "Box Office Game", 
+        url: "https://boxofficega.me/", 
+        category: ["games", "daily"], 
+        brief: "Daily game where you have to guess the top 5 highest grossing movies from a particular week in time using various clues."
+    },
+    { 
+        name: "Universal Crossword", 
+        url: "http://syndication.andrewsmcmeel.com/puzzles/crosswords", 
+        category: "games", 
+        brief: "Really good crossword website, with clues that border on cryptic and regular (they are not cryptic, rather creative)."
+    },
+    { 
+        name: "Simple Daily Puzzles", 
+        url: "https://simplydailypuzzles.com/index.html", 
+        category: ["games", "daily"], 
+        brief: "Mainly like this for the daily cryptic, but has a variety of puzzles (crossword, sudoku, etc.) that are updated...daily."
     }
 
 
-    
+
 
 
     // { 

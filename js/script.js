@@ -6,6 +6,7 @@ function displayWebsites(category) {
         category === 'all' ? true : Array.isArray(website.category) ? website.category.includes(category) : website.category === category
     );
     
+    filteredWebsites.sort((a, b) => a.name.localeCompare(b.name));
   
     filteredWebsites.forEach(website => {
         const item = document.createElement('div');
