@@ -7,19 +7,13 @@ const websites = [
         it can be used for collaborative stuff like group projects.`
     },
     { 
-        name: "Angle", 
-        url: "https://angle.wtf/", 
-        category: "games", 
-        brief: "Wordle like game where you guess an angle."
-    },
-    { 
         name: "Neal.fun", 
         url: "https://neal.fun/", 
         category: "games", 
         brief: "Collection of fun little games & time wasters. Some of them are rather interesting. All pretty well made."
     },
     { 
-        name: "Simon Tatham's Portable Puzzle Collection", 
+        name: "Simon Tatham's Puzzle Collection", 
         url: "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/", 
         category: "games", 
         brief: `A bunch of fun, interesting puzzles, which run in the browser. 
@@ -28,15 +22,9 @@ const websites = [
     { 
         name: "Evil AI Quiz", 
         url: "https://quiz.cord.com/", 
-        category: ["games", "interesting"], 
+        category: "interesting", 
         brief: `Basically a quiz where you and an AI LLM have to work together to 
         submit the answer to various questions. Some are hard for humans and easy for the AI, and some are the other way around.`
-    },
-    { 
-        name: "Strands", 
-        url: "https://www.nytimes.com/games/strands", 
-        category: ["games", "daily"], 
-        brief: "Daily NYT game, where you have to find words from a cryptic theme."
     },
     { 
         name: "Connections", 
@@ -63,12 +51,6 @@ const websites = [
         brief: "Daily game where you guess a location and year that a photo was taken, for 5 rounds."
     },
     { 
-        name: "Daily Tomato", 
-        url: "https://www.rottentomatoes.com/movie-trivia/", 
-        category: ["games", "daily"], 
-        brief: "Daily rotten-tomatoes provided movie guessing game. Not tooooooo hard."
-    },
-    { 
         name: "Box Office Game", 
         url: "https://boxofficega.me/", 
         category: ["games", "daily"], 
@@ -85,9 +67,19 @@ const websites = [
         url: "https://simplydailypuzzles.com/index.html", 
         category: ["games", "daily"], 
         brief: "Mainly like this for the daily cryptic, but has a variety of puzzles (crossword, sudoku, etc.) that are updated...daily."
+    },
+    { 
+        name: "Thrice", 
+        url: "https://thrice.geekswhodrink.com/", 
+        category: "games", 
+        brief: "Fun trivia game, which offers 5 rounds of questions, with an interesting mechanic."
+    },
+    { 
+        name: "Sokoban", 
+        url: "https://sokoban.info/?1_1", 
+        category: "games", 
+        brief: "Simple, old-school Japanese puzzle game, which is deceptively hard."
     }
-
-
 
 
 
