@@ -11,6 +11,11 @@
 .topM { font-size: 80px; }
 .topG { font-size: 300px; }
 
+a:visited {
+    color: inherit; 
+}
+
+
 .website-item {
     margin: 20px;
     padding: 10px;

@@ -63,12 +63,6 @@ const websites = [
         brief: "Really good crossword website, with clues that border on cryptic and regular (they are not cryptic, rather creative)."
     },
     { 
-        name: "Thrice", 
-        url: "https://thrice.geekswhodrink.com/", 
-        category: "games", 
-        brief: "Fun trivia game, which offers 5 rounds of questions, with an interesting mechanic."
-    },
-    { 
         name: "Sokoban", 
         url: "https://sokoban.info/?1_1", 
         category: "games", 
