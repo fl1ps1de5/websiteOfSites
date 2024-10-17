@@ -63,12 +63,6 @@ const websites = [
         brief: "Really good crossword website, with clues that border on cryptic and regular (they are not cryptic, rather creative)."
     },
     { 
-        name: "Simple Daily Puzzles", 
-        url: "https://simplydailypuzzles.com/index.html", 
-        category: ["games", "daily"], 
-        brief: "Mainly like this for the daily cryptic, but has a variety of puzzles (crossword, sudoku, etc.) that are updated...daily."
-    },
-    { 
         name: "Thrice", 
         url: "https://thrice.geekswhodrink.com/", 
         category: "games", 
@@ -79,7 +73,40 @@ const websites = [
         url: "https://sokoban.info/?1_1", 
         category: "games", 
         brief: "Simple, old-school Japanese puzzle game, which is deceptively hard."
-    }
+    },
+    { 
+        name: "Framed", 
+        url: "https://framed.wtf/", 
+        category: "games", 
+        brief: "Game where you guess a movie based on a series of stills."
+    },
+    { 
+        name: "Guess the Game", 
+        url: "https://guessthe.game/", 
+        category: "games", 
+        brief: "Game where you guess a video game based on a series of screenshots."
+    },
+    { 
+        name: "Daily Dozen", 
+        url: "https://dailydozentrivia.com/", 
+        category: "games", 
+        brief: "9 trivia questions each day (why the hell is it called dozen). It's super american, and also has questions about american sport which is literally impossible, but the other categories are fun."
+    },
+    { 
+        name: "QuickQ", 
+        url: "https://www.quickqtrivia.com/", 
+        category: "games", 
+        brief: "Really cool daily trivia game. You have 90 seconds in total to answer 8 questions, but you can stop the timer before the entire question is revealed in order to be faster. Great idea."
+    },
+    { 
+        name: "Thrice", 
+        url: "https://thrice.geekswhodrink.com/", 
+        category: "games", 
+        brief: "Daily trivia (again), but this time theres a twist. I cant be bothered to explain exactly, but you get 5 questions from 5 topics, and its fun."
+    },
+    
+    
+
 
 
 
